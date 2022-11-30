@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Red Thinker';
+    src: local('Red Thinker Regular'), local('Red-Thinker-Regular'),
+        url('RedThinker.woff2') format('woff2'),
+        url('RedThinker.woff') format('woff'),
+        url('RedThinker.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

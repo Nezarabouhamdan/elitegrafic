@@ -12,6 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@font-face {
+  font-family: 'Red Thinker';
+  src: local('Red Thinker Regular'), local('Red-Thinker-Regular'),
+      url('RedThinker-Light.ttf') format("truetype");
+    
+  font-weight: 1000;
+  font-style: normal;
+}
 
 .App-header {
   background-color: #282c34;
