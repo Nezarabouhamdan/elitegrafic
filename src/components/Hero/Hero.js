@@ -11,7 +11,7 @@ export default function Hero() {
    <Herosection>
     <Heroimg src={img}/>
     <Textdiv>
-
+ssssssssssssss
 <Head2>We Design For Love and we create brand with personality and identity that special belong for you .</Head2>
 
 <Head3>
