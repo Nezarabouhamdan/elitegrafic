@@ -12,7 +12,7 @@ export default function Hero() {
     <Heroimg src={img}/>
     <Textdiv>
 
-<Head2>We Design For Love and we create brand with personality and identity that special belong for you .</Head2>
+<Head2>We Design For Love and we create brand with personality and identity that special .</Head2>
 
 <Head3>
 Let's get this business started on the online
