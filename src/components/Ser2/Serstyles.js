@@ -18,7 +18,7 @@ export const Sersection = styled.div`
   align-content: center;
   align-items: center;
   @media screen and (max-width: 968px) {
-    height: 80vh;
+    height: 65vh;
   }
 `;
 export const Sersdiv = styled.div`
@@ -43,17 +43,19 @@ export const Sertop = styled.div`
   gap: 20px;
   height: 45vh;
   @media screen and (max-width: 968px) {
-    height: 30vh;
+    height: 25vh;
     gap: 10px;
   }
 `;
 export const Serimg = styled.img`
   height: 40vh;
   width: 30vw;
+  box-shadow: -5px 5px 10px 0px grey;
+
   z-index: 1;
   @media screen and (max-width: 968px) {
-    height: 25vh;
-    width: 28vw;
+    height: 20vh;
+    width: 30vw;
   }
 `;
 export const Serdetails = styled.div`
@@ -66,19 +68,20 @@ export const Serdetails = styled.div`
   justify-content: space-evenly;
   font-weight: bold;
   font-family: "Red Thinker";
-  box-shadow: 0px 0px 10px 1px #f4c3bc;
+  box-shadow: 0px 0px 15px 1px grey;
 
   align-content: center;
   align-items: center;
   font-size: 25;
   @media screen and (max-width: 968px) {
-    height: 25vh;
-    width: 28vw;
+    height: 20vh;
+    width: 30vw;
   }
 `;
 export const Sersicon = styled.img`
   z-index: 1;
   height: 50px;
+
   width: 50px;
   @media screen and (max-width: 968px) {
     height: 30px;

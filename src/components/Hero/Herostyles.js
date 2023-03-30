@@ -91,7 +91,6 @@ export const Head2 = styled.div`
   padding-bottom: 2px;
   font-size: 35px;
   font-family: "Red Thinker";
-  text-align: center;
   color: WHITE;
   @media screen and (max-width: 968px) {
     color: #f45c2c;

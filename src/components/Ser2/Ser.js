@@ -12,15 +12,12 @@ import {
 } from "./Serstyles";
 import app from "../../assets/7xm.xyz843439.jpg";
 import web from "../../assets/7xm.xyz735766.jpg";
-import graphic2 from "../../assets/7xm.xyz225598.jpg";
 import graphic from "../../assets/7xm.xyz352079.jpg";
 import img1 from "../../assets/icons8-responsive-100 (1).png";
 import img2 from "../../assets/icons8-designthinking-64 (1).png";
 import img3 from "../../assets/icons8-developer-mode-80.png";
-import img4 from "../../assets/Untitled (17).png";
 import img5 from "../../assets/icons8-services-64 (1).png";
 
-import { Heroimg } from "../Hero/Herostyles";
 import { Decoration, Dtext, Line } from "../Work/workstyles";
 
 const Ser = () => {
