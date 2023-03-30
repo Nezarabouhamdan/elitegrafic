@@ -21,10 +21,10 @@ background-position : center ;
    `
    export const Left=styled.div`
    height : 100vh ; 
-   width: 50%;
+   width: 100%;
    background-color: 	#FFFAFA;
    display: flex;
-   object-fit :cover ;
+   object-fit :fill ;
    justify-content: center;
    flex-direction: column;
    justify-content: center;

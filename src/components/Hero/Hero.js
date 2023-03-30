@@ -5,12 +5,16 @@ import img from '../../assets/7xm.xyz378227.jpg'
 import img1 from '../../assets/icons8-mesh-100.png'
 // import img2 from '../../assets/7xm.xyz716177-removebg-preview.png'
 import { Button,Button2 } from '../../Globalstyles'
+import Spline from '@splinetool/react-spline';
 
 export default function Hero() {
   return (
    <Herosection>
     <Heroimg src={img}/>
     <Textdiv>
+
+
+
 
 <Head2>We Design For Love and we create brand with personality and identity that special belong for you .</Head2>
 
