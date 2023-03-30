@@ -16,7 +16,8 @@ function Counter() {
         <Item>
           <Number>100+</Number>
           <Desc>Employees</Desc>
-        </Item>{" "}
+        </Item>
+        {""}
         <Item>
           <Number>100+</Number>
           <Desc>Employees</Desc>
