@@ -68,7 +68,6 @@ export const Imagediv = styled(motion.div)`
   @media screen and (max-width: 968px) {
     width: 100%;
     padding-top: 0px;
-    gap: 5px;
     justify-content: space-around;
     align-items: center;
   } ;

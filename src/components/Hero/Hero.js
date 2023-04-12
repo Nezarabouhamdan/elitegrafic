@@ -72,7 +72,7 @@ export default function Hero() {
           <Button back="alt">Get Started</Button>
           <Button back="">
             <img width="18px" height="18px" src={img1}></img>
-            Whats's Trending
+            Whats's Trend
           </Button>
         </Imagediv>
       </Textdiv>
