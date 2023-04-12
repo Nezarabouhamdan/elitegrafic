@@ -1,14 +1,17 @@
 import React from "react";
 import Counter from "../components/Coonter/Counter";
 import Hero from "../components/Hero/Hero";
-import Ser from "../components/Ser2/Ser";
+
+import Aboutus from "../components/About/About";
+
+import Services from "../components/Services/Services";
 function Home() {
   return (
     <>
       <Hero />
       <Counter />
-
-      <Ser />
+      <Aboutus />
+      <Services />
     </>
   );
 }

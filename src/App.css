@@ -12,15 +12,26 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@font-face {
-  font-family: 'Red Thinker';
-  src: local('Red Thinker Regular'), local('Red-Thinker-Regular'),
-      url('RedThinker-Light.ttf') format("truetype");
-    
+/* @font-face {
+  font-family: "Red Thinker";
+  src: local("Red Thinker Regular"), local("Red-Thinker-Regular"),
+    url("RedThinker-Light.ttf") format("truetype");
+
   font-weight: 1000;
   font-style: normal;
-}
+} */
+.increment {
+  font-size: 75px;
+  color: #f45c2c;
 
+  font-family: "Bebas Neue";
+}
+@media screen and (max-width: 968px) {
+  .increment {
+    font-family: "Bebas Neue";
+    font-size: 35px;
+  }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

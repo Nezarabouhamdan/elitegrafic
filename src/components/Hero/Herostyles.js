@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 export const Herosection = styled.div`
   height: 100vh;
@@ -12,7 +13,7 @@ export const Herosection = styled.div`
   align-content: left;
   align-items: left;
   @media screen and (max-width: 968px) {
-    height: 50vh;
+    height: 100vh;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -29,7 +30,7 @@ export const Heroimg = styled.img`
     object-fit: fill;
     transform: rotate(90deg);
 
-    width: 50vh;
+    width: 100vh;
     height: 100vw;
   }
 `;
@@ -45,13 +46,14 @@ export const Textdiv = styled.div`
   align-items: left;
   @media screen and (max-width: 968px) {
     width: 80%;
+    margin-top: -20%;
     margin-left: 0%;
 
     justify-content: center;
     align-items: center;
   } ;
 `;
-export const Imagediv = styled.div`
+export const Imagediv = styled(motion.div)`
   width: 60%;
   height: 10vh;
   z-index: 1;
@@ -60,11 +62,13 @@ export const Imagediv = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  font-family: "Bebas Neue";
+  color: #333333;
 
   @media screen and (max-width: 968px) {
     width: 100%;
-
-    justify-content: center;
+    padding-top: 0px;
+    justify-content: space-around;
     align-items: center;
   } ;
 `;
@@ -81,35 +85,36 @@ export const Head = styled.div`
   font-size: 20px;
   font-weight: bold;
 
-  color: WHITE;
+  color: black;
   @media screen and (max-width: 968px) {
     font-size: 11px;
   } ;
 `;
-export const Head2 = styled.div`
+export const Head2 = styled(motion.div)`
   padding-top: 2px;
   padding-bottom: 2px;
-  font-size: 35px;
-  font-family: "Red Thinker";
-  color: WHITE;
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  color: #333333;
+  font-weight: 100;
+
   @media screen and (max-width: 968px) {
-    color: #f45c2c;
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
 
-    font-size: 15px;
+    font-size: 40px;
   } ;
 `;
-export const Head3 = styled.div`
-  font-size: 18px;
-  font-weight: lighter;
-  font-family: "Red Thinker";
+export const Head3 = styled(motion.div)`
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Mulish";
   padding-top: 15px;
   padding-bottom: 15px;
-  color: gray;
+  color: #828282;
   @media screen and (max-width: 968px) {
     font-size: 12px;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 0px;
   } ;
 `;
@@ -117,4 +122,11 @@ export const Underline = styled.div`
   height: 2px;
   width: 90%;
   background-color: #daa520;
+`;
+export const Colored = styled.div`
+  font-size: 80px;
+  font-weight: 100;
+
+  font-family: "Bebas Neue";
+  color: #f45c2c;
 `;

@@ -27,7 +27,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-  color: white;
+  color: black;
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -47,10 +47,10 @@ export const NavIcon = styled.img`
   margin-top: 0rem;
 
   width: 5rem;
-  height: 5rem;
+  height: 4rem;
   @media screen and (max-width: 968px) {
     margin-left: 0rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
     margin-top: 0rem;
 
     width: 3rem;
@@ -63,7 +63,7 @@ export const NavName = styled.img`
   margin-top: 0rem;
 
   width: 8rem;
-  height: 6rem;
+  height: 5rem;
   @media screen and (max-width: 968px) {
     margin-left: 0rem;
     margin-right: 1rem;
@@ -83,7 +83,7 @@ export const MobileIcon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    color: white;
+    color: black;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -110,7 +110,7 @@ export const NavMenu = styled.ul`
     visibility: ${({ show }) => (show ? "visible" : "hidden")};
     transform: translateY(${({ show }) => (show ? "0" : "-10px")});
     transition: opacity 0.5s ease;
-    background-color: #020305;
+    background-color: #fff;
   }
 
   > li:first-child {
@@ -132,10 +132,10 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled.span`
-  color: #fffafa;
+  color: black;
   display: flex;
   align-items: center;
-  font-family: "Red Thinker";
+  font-family: "Bebas Neue";
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -154,6 +154,8 @@ export const NavLinks = styled.span`
   @media screen and (max-width: 968px) {
     text-align: center;
     padding: 2rem;
+    background-color: #fff;
+
     width: 100%;
     display: table;
 

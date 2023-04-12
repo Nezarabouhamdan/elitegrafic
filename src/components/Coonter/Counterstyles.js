@@ -1,5 +1,6 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
-export const Row = styled.div`
+export const Row = styled(motion.div)`
   height: 50vh;
   display: flex;
   flex-direction: row;
@@ -10,6 +11,7 @@ export const Row = styled.div`
 `;
 export const Item = styled.div`
   width: 22vw;
+  z-index: 1;
   height: 50vh;
   display: flex;
   flex-direction: Column;
