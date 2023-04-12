@@ -84,7 +84,7 @@ export const Button = styled(motion.div)`
   }
   @media screen and (max-width: 968px) {
     margin-top: 40px;
-    width: 135px;
+    width: 155px;
     font-size: small;
   } ;
 `;
